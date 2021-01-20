@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import random as rd
 import sys
-
+#works?
 ip = ""
 
 slattinese = [" SLATT++! ", #1
