@@ -3,27 +3,27 @@ import config
 import praw
 import time
 import random as rd
-import Slatt
+import slatt
 
 def authenticate():
     reddit = praw.Reddit(
-        username=config.username,
-        password=config.password,
-        client_id=config.client_id,
-        client_secret=config.client_secret,
-        user_agent=config.user_agent,
+        username = '',
+        password = '',
+        client_id = '',
+        client_secret = '',
+        user_agent =''
     )
     return reddit
 
 def run(reddit):
 
     for comment in reddit.subreddit(
-        "youngthug"
+        "YoungThug"
     ).stream.comments(skip_existing=True):
         if (
-            "!slattinesebot" in comment.body.lower()
-            or "u/slattinesebot" in comment.body.lower()
-            and comment.author != "slattinesebot"
+            "!slattBot" in comment.body.lower()
+            or "u/slattBot" in comment.body.lower()
+            and comment.author != "slattBot"
             and not comment.saved
         ):
             try:
@@ -34,9 +34,9 @@ def run(reddit):
                 parBod = parent.body
                 with open("test.txt", "r") as cstr:
 
-                    if "!slattinesebot" not in parBod:
+                    if "!slattBot" not in parBod:
 
-                        Slatt.translate(parBod)
+                        slatt.translate(parBod)
                         SlattStr = cstr.read()
                         comment.save()
                         comment.reply(
@@ -49,3 +49,5 @@ def run(reddit):
                 time.sleep(30)
 
     time.sleep(60)
+
+authenticate()
