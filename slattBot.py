@@ -18,7 +18,7 @@ def authenticate():
 def run(reddit):
 
     for comment in reddit.subreddit(
-        "YoungThug"
+        "YoungThug","HipHopHeads","playboicarti","travisscott","liluzivert"
     ).stream.comments(skip_existing=True):
         if (
             "!slattBot" in comment.body.lower()
