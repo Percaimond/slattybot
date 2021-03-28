@@ -7,13 +7,13 @@ ip = "All that glitters is not gold By the pricking of my thumbs, Something wick
 
 slattinese = ["+ SLATT++! ", #1
               "* Slime ", #2
-              "** SHnake ", #3
+              "** Snake ", #3
               "* No kizzy!!!* ", #4
               "* Big Steppa :) ", #5
               " OH OKAY!!! ", #6
               " SKRRRRRRRT ", #7
               " Udiggwhatimsayin??? ", #8
-              " ", #9
+              " !!", #9
               " ", #10
               " ", #11
               " Oh really? ", #12
