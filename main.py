@@ -2,7 +2,9 @@ import praw
 import slattBot
 import time
 
+
 reddit = slattBot.authenticate()
+
 
 while True:
         try:

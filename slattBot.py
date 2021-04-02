@@ -7,40 +7,38 @@ import slatt
 
 def authenticate():
     reddit = praw.Reddit(
-        username = '',
-        password = '',
-        client_id = '',
-        client_secret = '',
-        user_agent =''
+        username = config.username,
+        password = config.password,
+        client_id = config.client_id,
+        client_secret = config.client_secret,
+        user_agent = config.user_agent
     )
     return reddit
 
 def run(reddit):
 
-    for comment in reddit.subreddit(
-        "YoungThug","HipHopHeads","playboicarti","travisscott","liluzivert"
-    ).stream.comments(skip_existing=True):
-        if (
-            "!slattBot" in comment.body.lower()
-            or "u/slattBot" in comment.body.lower()
-            and comment.author != "slattBot"
+    for comment in reddit.subreddit("testingground4bots").stream.comments():#monitors all comments in the subreddit
+        if (#to add more subreddits concatenate them with "+"
+            "!slattbot" in comment.body.lower()
+            or "u/slattbot" in comment.body.lower()
+            and comment.author != "slattbot"
             and not comment.saved
         ):
             try:
 
-                msg = "*Beep Boop! I'm a bot! Please contact"
+                msg = "*Beep Boop! I'm a bot! Please contact me if problems occur :)*"
                 print("Called")
                 parent = comment.parent()
                 parBod = parent.body
-                with open("test.txt", "r") as cstr:
+                with open("test.txt", "r" ,encoding='utf8') as cstr:
 
-                    if "!slattBot" not in parBod:
+                    if "!slattbot" not in parBod:
 
                         slatt.translate(parBod)
-                        SlattStr = cstr.read()
+                        slattStr = cstr.read()
                         comment.save()
                         comment.reply(
-                            SlattStr + "\n\n" + msg
+                            slattStr + "\n\n" + msg
                         )
                         print("Replied")
 
@@ -50,4 +48,3 @@ def run(reddit):
 
     time.sleep(60)
 
-authenticate()
