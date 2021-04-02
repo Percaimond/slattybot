@@ -1,6 +1,7 @@
-# Slattbot
+# Slattbot 🐍🐍🐍
 
 Reddit Bot that translates posts into Slattinese (Slang popularised by Atlanta native superstar Young Thug)
+[Uploading giphy (1).gif…]()
 
 ## Usage
 
@@ -10,6 +11,15 @@ Use the command !slattbot or u/slattbot
 !slattbot 
 u/slattbot
 ```
+
+## Examples
+
+I am Luke Skywalker, I am Here To Rescue You.!
+ =
+OH OKAY!!! I am Luke !! Skywalker Udiggwhatimsayin??? I am* No kizzy!!!* Here To Rescue 🐍🐍🐍 You. 
+
+That is one small step for a man, one giant leap for mankind. =
+That is 🐍🐍🐍 one 🐍🐍🐍 small step+ SLATT++! for a man ON GAWD!  one giant leap for+ SLATT++! mankind.
 
 ## Contributing
 
