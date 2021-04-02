@@ -1,7 +1,7 @@
 # Slattbot 🐍🐍🐍
 
 Reddit Bot that translates posts into Slattinese (Slang popularised by Atlanta native superstar Young Thug)
-[Uploading giphy (1).gif…]()
+[giphy (1).gif]
 
 ## Usage
 
