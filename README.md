@@ -15,7 +15,7 @@ u/slattbot
 
 ## Examples
 
-I am Luke Skywalker, I am Here To Rescue You.! =
+I am Luke Skywalker, I am Here To Rescue You! =
 OH OKAY!!! I am Luke !! Skywalker Udiggwhatimsayin??? I am* No kizzy!!!* Here To Rescue 🐍🐍🐍 You. 
 
 That is one small step for a man, one giant leap for mankind. =
