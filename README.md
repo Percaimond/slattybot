@@ -9,8 +9,8 @@ Reddit Bot that translates posts into Slattinese (Slang popularised by Atlanta n
 Use the command !slattbot or u/slattbot
 
 ```bash
-!slattbot 
-u/slattbot
+!slattybot 
+u/slattybot
 ```
 
 ## Examples
