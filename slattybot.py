@@ -17,10 +17,10 @@ def authenticate():
 
 def run(reddit):
 
-    for comment in reddit.subreddit("testingground4bots").stream.comments():#monitors all comments in the subreddit
+    for comment in reddit.subreddit("playboicarti+youngthug+liluzivert").stream.comments():#monitors all comments in the subreddit
         if (#to add more subreddits concatenate them with "+"
-            "!slattbot" in comment.body.lower()
-            or "u/slattbot" in comment.body.lower()
+            "!slattybot" in comment.body.lower()
+            or "u/slattybot" in comment.body.lower()
             and comment.author != "slattbot"
             and not comment.saved
         ):

@@ -4,7 +4,7 @@ import sys
 
 #ip = "All that glitters is not gold By the pricking of my thumbs, Something wicked this way comes.
 # Open, locks, Whoever knocks! Hell is empty and all the devils are here."#example text for test purposes
-ip = ''
+ip = 'That is one small step for a man, one giant leap for mankind.'
 
 slattinese = ["+ SLATT++! ", #1
               "* Slime ", #2

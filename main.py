@@ -1,14 +1,14 @@
 import praw
-import slattBot
+import slattybot
 import time
 
 
-reddit = slattBot.authenticate()
+reddit = slattybot.authenticate()
 
 
 while True:
         try:
-            slattBot.run(reddit)
+            slattybot.run(reddit)
 
         except Exception as e:
             print(e)
