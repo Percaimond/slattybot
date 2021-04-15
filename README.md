@@ -6,7 +6,7 @@ Reddit Bot that translates posts into Slattinese (Slang popularised by Atlanta n
 
 ## Usage
 
-Use the command !slattbot or u/slattbot
+Use the command !slattybot or u/slattybot in a comment of a subreddit that is supported by the bot.
 
 ```bash
 !slattybot 
