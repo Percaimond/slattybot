@@ -28,3 +28,5 @@ Message me if you want to update the weights or terms in the dictionary :)
 ## License
 
 MIT
+
+inspired by getcake https://github.com/getcake
